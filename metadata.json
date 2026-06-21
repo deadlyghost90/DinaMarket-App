@@ -1,0 +1,6 @@
+{
+  "name": "DinaMarket Pakistan",
+  "description": "DinaMarket Pakistan is a premium localized decentralized e-commerce marketplace featuring safe verification of region-wide mobile wallets, localized category routing, self-pickup logistics, and seller business suites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

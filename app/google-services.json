@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004354649208",
+    "project_id": "dinamarket-pakistan",
+    "storage_bucket": "dinamarket-pakistan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004354649208:android:6d8449fca17822152a818d",
+        "android_client_info": {
+          "package_name": "com.fatahshaheenos.DinaMarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004354649208-mock.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatahshaheenos.DinaMarket",
+            "certificate_hash": "dummy"
+          }
+        },
+        {
+          "client_id": "1004354649208-mockweb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrdnBcZZi0TmH_ZXtoSXIo5eheoP-RKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

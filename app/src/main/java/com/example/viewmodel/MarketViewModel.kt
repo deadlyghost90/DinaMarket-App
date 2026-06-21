@@ -80,7 +80,7 @@ class MarketViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     fun refreshUserSessionData() {
-        val uid = repository.getAuthUserId() ?: "guest_local_user"
+        val uid = repository.getAuthUserId() ?: return
         viewModelScope.launch {
             repository.getNotifications(uid).collectLatest { list ->
                 _buyerNotifications.value = list

@@ -28,17 +28,6 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Add Google Services mock json
-        run: |
-          mkdir -p app
-          cat <<EOF > app/google-services.json
-          {
-            "project_info": { "project_number": "123" },
-            "client": [{"client_info": {"mobilesdk_app_id": "1:123:android:abc","android_client_info": {"package_name": "com.fatahshaheenos.DinaMarket"}}}],
-            "configuration_version": "1"
-          }
-          EOF
-
       - name: Build Debug APK
         run: ./gradlew assembleDebug
 

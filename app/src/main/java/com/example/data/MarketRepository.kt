@@ -217,7 +217,7 @@ class MarketRepository(private val context: Context) {
             val totalAmount = items.sumOf { it.totalItemPrice }
             val newOrder = Order(
                 orderId = orderId,
-                buyerUid = getAuthUserId() ?: "guest_uid",
+                buyerUid = getAuthUserId() ?: "",
                 buyerName = name,
                 buyerPhone = phone,
                 deliveryLocation = address,
